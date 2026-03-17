@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  padding: 20px 50px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+nav a {
+  color: #64ffda;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.stranica {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #64ffda;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 30px 0 10px;
+  color: #ccd6f6;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #8892b0;
+}
+
+p {
+  color: #8892b0;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 0 20px;
+}
+
+ul li {
+  color: #8892b0;
+  padding: 5px 0;
+}
+
+ul li::before {
+  content: "▹ ";
+  color: #64ffda;
+}
+
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.gumbi {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.gumb {
+  padding: 12px 25px;
+  border: 1px solid #64ffda;
+  border-radius: 5px;
+  color: #64ffda;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.gumb:hover {
+  background: rgba(100, 255, 218, 0.1);
+}
+.projekti-naslov {
+  margin-bottom: 60px;
+}
+
+.kontakt-naslov {
+  margin-bottom: 60px;
+}
+.omeni-naslov {
+  margin-bottom: 60px;
+}
